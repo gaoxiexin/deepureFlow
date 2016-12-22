@@ -3,6 +3,10 @@ package com.tasly.deepureflow.domain.product;
 import java.util.Date;
 
 import javax.xml.bind.annotation.XmlRootElement;
+
+/**
+ * 产品品类Domain
+ */
 @XmlRootElement(name = "ProductCategory")
 public class ProductCategory {
     private Integer id;
