@@ -5,6 +5,9 @@ import java.util.Date;
 
 import javax.xml.bind.annotation.XmlRootElement;
 
+/**
+ *  产品Domain
+ */
 @XmlRootElement(name = "Product")
 public class Product {
     private Integer id;
